@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CatriumMC — Minecraft Mod Loader</title>
+  <link rel="icon" type="image/png" href="CatriumMCicon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="nav-brand">
+        <img src="CatriumMCicon.png" alt="CatriumMC Logo" class="nav-logo" />
+        <span class="nav-title">CatriumMC</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#tech">Technology</a></li>
+        <li><a href="#install">Install</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <img src="CatriumMCicon.png" alt="CatriumMC" class="hero-logo" />
+      <h1>CatriumMC</h1>
+      <p class="hero-tagline">The power of Forge. The lightness of Fabric.</p>
+      <p class="hero-sub">A next-generation Minecraft mod loader built for performance, flexibility, and compatibility.</p>
+      <div class="hero-actions">
+        <a href="#install" class="btn btn-primary">Download</a>
+        <a href="#features" class="btn btn-secondary">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-glow"></div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <h2 class="section-title">Why CatriumMC?</h2>
+      <div class="feature-grid">
+
+        <div class="feature-card">
+          <div class="feature-icon">&#9889;</div>
+          <h3>Forge-Level Power</h3>
+          <p>Full access to deep Minecraft internals with the extensive modding capabilities you expect from a mature mod loader — no compromises.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">&#129529;</div>
+          <h3>Fabric Lightweight Feel</h3>
+          <p>Minimal overhead, fast startup, and a lean runtime footprint. CatriumMC stays out of the way and lets your mods do the talking.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">&#128279;</div>
+          <h3>Built-in Fabric Support</h3>
+          <p>Run Fabric mods out of the box — no extra setup needed. Your existing Fabric mod collection just works.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">&#128295;</div>
+          <h3>Mixin + ASM CoreMod API</h3>
+          <p>Powered by Mixin for safe, composable bytecode transformations and ASM for low-level cormod hooking when you need total control.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="tech" id="tech">
+    <div class="container">
+      <h2 class="section-title">Core Technology</h2>
+      <div class="tech-grid">
+
+        <div class="tech-card">
+          <h3>Mixin Framework</h3>
+          <p>Uses SpongePowered Mixin to inject into Minecraft classes at load time. Composable, maintainable, and update-friendly — the industry standard for mod compatibility.</p>
+        </div>
+
+        <div class="tech-card">
+          <h3>ASM CoreMod API</h3>
+          <p>Direct bytecode manipulation via ObjectWeb ASM gives advanced modders the raw access they need. Write transformation visitors that run before class loading for zero-cost hooks.</p>
+        </div>
+
+        <div class="tech-card">
+          <h3>Fabric Interop Layer</h3>
+          <p>CatriumMC ships with a built-in compatibility shim for the Fabric mod API, so the thousands of existing Fabric mods load natively alongside CatriumMC-native mods.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="install" id="install">
+    <div class="container">
+      <h2 class="section-title">Get Started</h2>
+      <div class="install-steps">
+
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Download the Installer</h3>
+            <p>Grab the latest CatriumMC installer JAR from the releases page.</p>
+            <a href="#" class="btn btn-primary">Download Installer</a>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Run the Installer</h3>
+            <p>Execute the JAR with Java 17+ and select your Minecraft installation directory.</p>
+            <code>java -jar catriummc-installer.jar</code>
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Add Your Mods</h3>
+            <p>Drop CatriumMC-native or Fabric mods into your <code>mods/</code> folder and launch Minecraft.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <img src="CatriumMCicon.png" alt="CatriumMC" class="footer-logo" />
+      <p>&copy; 2026 CatriumMC. Not affiliated with Mojang Studios or Microsoft.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
